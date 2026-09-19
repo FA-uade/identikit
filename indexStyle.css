@@ -1,0 +1,39 @@
+html, body {
+    height: 50%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+ul {
+    margin: 0;
+    background-color: rgb(221, 21, 10);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    background-color: rgba(0, 85, 255, 0.868);
+    padding: 10px 30px;
+    text-decoration: none;
+    line-height: 80px;
+
+}
+
+a {
+   padding: 40px;
+}
